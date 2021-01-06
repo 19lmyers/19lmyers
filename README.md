@@ -16,10 +16,6 @@ Previously, I was lead programmer and team co-captain of [FRC Team 980 ThunderBo
 
 While with FRC Team 980, I developed **ThunderScout**, a FRC scouting application that follows Google's Material Design principles.
 
-![ThunderScout 3 screenshot](/thunderscout.png)
-
-> A forthcoming version of ThunderScout supports custom scouting criteria.
-
 ## Extracurricular
 
 ### Minecraft
@@ -39,4 +35,5 @@ I've also been running Minecraft servers off and on since 2013. My latest one, *
 ## Contact
 
 Questions? Comments? Reach out to me on Twitter [@CharAhNalaar](https://twitter.com/CharAhNalaar).
+
 For professional inquiries, you can [contact me on LinkedIn](https://www.linkedin.com/in/luke-myers-55373a1b8/).
