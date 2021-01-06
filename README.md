@@ -20,7 +20,7 @@ While with FRC Team 980, I developed **ThunderScout**, a FRC scouting applicatio
 
 ### Minecraft
 
-I've also been running Minecraft servers off and on since 2013. My latest one, *TheVortex SMP,* launched on December 15th.
+I've also been running Minecraft servers off and on since 2013. My latest one, **TheVortex SMP,** launched on December 15th.
 
 ![Minecraft server screenshot](/minecraft.jpg)
 
@@ -37,3 +37,42 @@ I've also been running Minecraft servers off and on since 2013. My latest one, *
 Questions? Comments? Reach out to me on Twitter [@CharAhNalaar](https://twitter.com/CharAhNalaar).
 
 For professional inquiries, you can [contact me on LinkedIn](https://www.linkedin.com/in/luke-myers-55373a1b8/).
+
+## Other
+
+### Java 11
+
+Java 11 is great. Here's a few snippets:
+
+```
+event.getRecipients()
+    .forEach(p -> {
+        if (player != p) {
+            checkForMentions(p, event.getMessage());
+        }
+        p.spigot().sendMessage(message.create());
+    });
+```
+
+```
+return Transformations.map(database.dataDao().getByTeamNumber(eventId, teamNumber),
+        list -> list.stream().map(ModelTransformations::fromDataModel).collect(Collectors.toList()));
+    
+```
+
+```
+ViewCompat.setOnApplyWindowInsetsListener(binding.buttonMatchScout, (v, insets) -> {
+    CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) v.getLayoutParams();
+    params.bottomMargin = InsetUtils.dpToPixel(16, getContext()) + insets.getSystemWindowInsetBottom();
+    return insets;
+});
+```
+
+`var` deserves a shoutout in its own right, it makes reading Java so much nicer!
+
+### TODO
+
+- [x] Create this READMe
+- [X] Submit it for my assignment
+- [ ] Update wtih ThunderScout 3 repository
+- [ ] Remove the extraneous sections
