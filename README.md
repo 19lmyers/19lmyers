@@ -68,7 +68,7 @@ ViewCompat.setOnApplyWindowInsetsListener(binding.buttonMatchScout, (v, insets) 
 });
 ```
 
-`var` deserves a shoutout in its own right, it makes reading Java so much nicer!
+`var` deserves a shoutout in its own right, it makes reading Java so much nicer! ~~totally not stolen from Kotlin / JS or anything~~ 
 
 ### TODO
 
@@ -76,3 +76,17 @@ ViewCompat.setOnApplyWindowInsetsListener(binding.buttonMatchScout, (v, insets) 
 - [X] Submit it for my assignment
 - [ ] Update wtih ThunderScout 3 repository
 - [ ] Remove the extraneous sections
+
+1. add these lists
+2. add sublists
+3. wait for grade
+4. remove fluff
+
+- list list
+    - aList
+    - list 1
+        - list 2
+    - list 3
+    - list 4
+        - list 4a
+        - list 4b
